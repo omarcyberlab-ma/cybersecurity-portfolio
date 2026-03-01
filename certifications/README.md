@@ -10,7 +10,7 @@ Verified certifications and completed training programs.
 | Digital Safety and Security | Arizona State University | 100% | Oct 2024 | [Verify](https://coursera.org/verify/6YZ6XMMCGD1N) |
 | AI For Everyone | DeepLearning.AI | 99.37% | Oct 2024 | [Verify](https://coursera.org/verify/1PCVHVJTWXSM) |
 | Excel Basics for Data Analysis | IBM / Coursera | 96.59% | Oct 2024 | [Verify](https://coursera.org/verify/H0HM4PKUPLSH) |
-| Delivering Quality Work with Agility | IBM / Coursera | - | Oct 2024 | - |
+| Delivering Quality Work with Agility | IBM / Coursera | 75% | May 2025 | - |
 | Work Smarter with Microsoft PowerPoint | Microsoft | 85.75% | Oct 2024 | [Verify](https://coursera.org/verify/FQ6670A6QLW5) |
 | CCNA Security | Cisco | - | Aug 2020 | - |
 | CCNA 1, 2, 3, 4 Routing & Switching | Cisco | - | 2016–2020 | - |
