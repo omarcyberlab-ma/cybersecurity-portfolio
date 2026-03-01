@@ -6,7 +6,7 @@ Verified certifications and completed training programs.
 
 | Certificate | Issuer | Grade | Date | Verify |
 |-------------|--------|-------|------|--------|
-| Google Cybersecurity Certificate | Google / MBRF / UNDP / Coursera | - | 2025 | [Verify](https://coursera.org/share/9ae9d0bb8c9175374947c24edd04b567) |
+| Google Cybersecurity Certificate | Google / MBRF / UNDP / Coursera | - | Feb 2026 | [Verify](https://coursera.org/share/9ae9d0bb8c9175374947c24edd04b567) |
 | Digital Safety and Security | Arizona State University | 100% | Oct 2024 | [Verify](https://coursera.org/verify/6YZ6XMMCGD1N) |
 | AI For Everyone | DeepLearning.AI | 99.37% | Oct 2024 | [Verify](https://coursera.org/verify/1PCVHVJTWXSM) |
 | Excel Basics for Data Analysis | IBM / Coursera | 96.59% | Oct 2024 | [Verify](https://coursera.org/verify/H0HM4PKUPLSH) |
@@ -20,16 +20,16 @@ Verified certifications and completed training programs.
 
 ## 📘 Google Cybersecurity Certificate — Course Breakdown
 
-| Course | Status |
-|--------|--------|
-| Foundations of Cybersecurity | ✅ Complete |
-| Play It Safe: Manage Security Risks | ✅ Complete |
-| Connect and Protect: Networks and Network Security | ✅ Complete |
-| Tools of the Trade: Linux and SQL | ✅ Complete |
-| Assets, Threats, and Vulnerabilities | ✅ Complete |
-| Sound the Alarm: Detection and Response | ✅ Complete |
-| Automate Cybersecurity Tasks with Python | ✅ Complete |
-| Put It to Work: Prepare for Cybersecurity Jobs | ✅ Complete |
+| Course | Grade | Completed |
+|--------|-------|-----------|
+| Foundations of Cybersecurity | 93.33% | Jun 2025 |
+| Play It Safe: Manage Security Risks | 93.17% | Oct 2025 |
+| Connect and Protect: Networks and Network Security | 89.90% | Oct 2025 |
+| Tools of the Trade: Linux and SQL | 95.48% | Feb 2026 |
+| Assets, Threats, and Vulnerabilities | 92% | Feb 2026 |
+| Sound the Alarm: Detection and Response | 98.81% | Feb 2026 |
+| Automate Cybersecurity Tasks with Python | 95.84% | Feb 2026 |
+| Put It to Work: Prepare for Cybersecurity Jobs | 98.10% | Feb 2026 |
 
 ## 🔄 In Progress
 
