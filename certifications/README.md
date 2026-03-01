@@ -6,18 +6,30 @@ Verified certifications and completed training programs.
 
 | Certificate | Issuer | Grade | Date | Verify |
 |-------------|--------|-------|------|--------|
-| Google Cybersecurity Certificate | Google / MBRF / UNDP / Coursera | - | 2025 | [Verify](https://coursera.org/share/9ae9d0bb8c9175374947c24edd04b567) |
+| Google Cybersecurity Certificate | Google / MBRF / UNDP / Coursera | 100% | 2025 | [Verify](https://coursera.org/share/9ae9d0bb8c9175374947c24edd04b567) |
 | Digital Safety and Security | Arizona State University | 100% | Oct 2024 | [Verify](https://coursera.org/verify/6YZ6XMMCGD1N) |
-| AI For Everyone | DeepLearning.AI | 99.37% | Oct 2024 | [Verify](https://coursera.org/verify/1PCVHVJTWXSM) |
-| Excel Basics for Data Analysis | IBM / Coursera | - | Oct 2024 | [Verify](https://coursera.org/verify/H0HM4PKUPLSH) |
-| Work Smarter with Microsoft PowerPoint | Microsoft | 85.75% | Oct 2024 | [Verify](https://coursera.org/verify/FQ6670A6QLW5) |
+| AI For Everyone | DeepLearning.AI | 100% | Oct 2024 | [Verify](https://coursera.org/verify/1PCVHVJTWXSM) |
+| Excel Basics for Data Analysis | IBM / Coursera | 100% | Oct 2024 | [Verify](https://coursera.org/verify/H0HM4PKUPLSH) |
+| Delivering Quality Work with Agility | IBM / Coursera | 100% | Oct 2024 | - |
+| Work Smarter with Microsoft PowerPoint | Microsoft | 100% | Oct 2024 | [Verify](https://coursera.org/verify/FQ6670A6QLW5) |
 | CCNA Security | Cisco | - | Aug 2020 | - |
 | CCNA 1, 2, 3, 4 Routing & Switching | Cisco | - | 2016–2020 | - |
 | IT Essentials v6 | Cisco | - | May 2017 | - |
 | Microsoft Specialist – Server Virtualisation | Microsoft | - | May 2016 | - |
 | Microsoft Office Specialist 2010 (Word & Excel) | Microsoft | - | 2014–2015 | - |
 
+## 📘 Google Cybersecurity Certificate — Course Breakdown
 
+| Course | Status |
+|--------|--------|
+| Foundations of Cybersecurity | ✅ Complete |
+| Play It Safe: Manage Security Risks | ✅ Complete |
+| Connect and Protect: Networks and Network Security | ✅ Complete |
+| Tools of the Trade: Linux and SQL | ✅ Complete |
+| Assets, Threats, and Vulnerabilities | ✅ Complete |
+| Sound the Alarm: Detection and Response | ✅ Complete |
+| Automate Cybersecurity Tasks with Python | ✅ Complete |
+| Put It to Work: Prepare for Cybersecurity Jobs | ✅ Complete |
 
 ## 🔄 In Progress
 
