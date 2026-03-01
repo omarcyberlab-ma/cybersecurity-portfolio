@@ -5,7 +5,7 @@
 
 [![Google Cybersecurity Certificate](https://img.shields.io/badge/Google_Cybersecurity-Certificate-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://coursera.org/share/9ae9d0bb8c9175374947c24edd04b567)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Active-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)](https://tryhackme.com)
-[![Location](https://img.shields.io/badge/Morocco-Fès–Meknès-CC0001?style=for-the-badge&logo=googlemaps&logoColor=white)]()
+[![Location](https://img.shields.io/badge/Morocco-CC0001?style=for-the-badge&logo=googlemaps&logoColor=white)]()
 [![Focus](https://img.shields.io/badge/Focus-SOC_Analyst-00B4D8?style=for-the-badge&logo=shield&logoColor=white)]()
 
 </div>
