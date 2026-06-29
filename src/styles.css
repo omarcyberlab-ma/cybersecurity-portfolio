@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+@theme inline {
+  --background: #0a0e14;
+  --foreground: #e6edf3;
+  --surface: #11161d;
+  --card: #11161d;
+  --accent: #22d3a8;
+  --accent-alt: #5eead4;
+  --ring: #22d3a8;
+  --border: #1c232d;
+  --muted-foreground: #8b97a8;
+  --destructive: #f87171;
+  --font-sans: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono";
+}
+
+:root, .dark {
+  color-scheme: dark;
+  --background: #0a0e14;
+  --foreground: #e6edf3;
+  --surface: #11161d;
+  --card: #11161d;
+  --accent: #22d3a8;
+  --accent-alt: #5eead4;
+  --ring: #22d3a8;
+  --border: #1c232d;
+  --muted-foreground: #8b97a8;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+.font-mono { font-family: var(--font-mono); }
+.section-marker { color: var(--accent); font-family: var(--font-mono); font-size: 0.875rem; letter-spacing: -0.01em; }
+
+.glow-accent { box-shadow: 0 0 8px color-mix(in srgb, var(--accent) 30%, transparent); }
+
+.hover-card-lift { transition: transform .18s ease, box-shadow .18s ease; }
+.hover-card-lift:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(0,0,0,0.4); }
+
+.terminal-chip {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 9999px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+}
+.terminal-chip::before {
+  content: ">";
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.reveal { opacity: 0; transform: translateY(20px); transition: opacity .5s ease, transform .5s ease; }
+.reveal-in { opacity: 1; transform: translateY(0); }
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-alt) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-surface { background-color: var(--surface); }
+
+@keyframes reveal-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes accordion-down {
+  from { height: 0; }
+  to { height: var(--radix-accordion-content-height); }
+}
+@keyframes accordion-up {
+  from { height: var(--radix-accordion-content-height); }
+  to { height: 0; }
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--background); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted-foreground); }
+
+::selection { background: color-mix(in srgb, var(--accent) 30%, transparent); color: var(--foreground); }
+
+.glitch {
+  position: relative;
+}
+.glitch::before,
+.glitch::after {
+  content: attr(data-glitch);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip: rect(0, 0, 0, 0);
+}
+@keyframes glitch-anim {
+  0% { clip: rect(42px, 9999px, 44px, 0); transform: skew(0.3deg); }
+  5% { clip: rect(12px, 9999px, 59px, 0); transform: skew(0.3deg); }
+  10% { clip: rect(48px, 9999px, 29px, 0); transform: skew(0.3deg); }
+  15% { clip: rect(42px, 9999px, 73px, 0); transform: skew(0.3deg); }
+  20% { clip: rect(63px, 9999px, 27px, 0); transform: skew(0.3deg); }
+  25% { clip: rect(34px, 9999px, 55px, 0); transform: skew(0.3deg); }
+  30% { clip: rect(86px, 9999px, 73px, 0); transform: skew(0.3deg); }
+  35% { clip: rect(20px, 9999px, 20px, 0); transform: skew(0.3deg); }
+  40% { clip: rect(26px, 9999px, 60px, 0); transform: skew(0.3deg); }
+  45% { clip: rect(25px, 9999px, 66px, 0); transform: skew(0.3deg); }
+  50% { clip: rect(57px, 9999px, 98px, 0); transform: skew(0.3deg); }
+  55% { clip: rect(5px, 9999px, 46px, 0); transform: skew(0.3deg); }
+  60% { clip: rect(82px, 9999px, 31px, 0); transform: skew(0.3deg); }
+  65% { clip: rect(54px, 9999px, 27px, 0); transform: skew(0.3deg); }
+  70% { clip: rect(28px, 9999px, 99px, 0); transform: skew(0.3deg); }
+  75% { clip: rect(45px, 9999px, 69px, 0); transform: skew(0.3deg); }
+  80% { clip: rect(23px, 9999px, 85px, 0); transform: skew(0.3deg); }
+  85% { clip: rect(74px, 9999px, 64px, 0); transform: skew(0.3deg); }
+  90% { clip: rect(34px, 9999px, 41px, 0); transform: skew(0.3deg); }
+  95% { clip: rect(23px, 9999px, 81px, 0); transform: skew(0.3deg); }
+  100% { clip: rect(64px, 9999px, 48px, 0); transform: skew(0.3deg); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "src": ["src/**/*.{tsx,ts}"],
+  "css": ["src/styles.css"],
+  "config": {
+    "prefix": "ui"
+  }
+}
